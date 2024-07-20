@@ -7,7 +7,7 @@ import Hello from './components/Hello';
 import Gr from './components/Gr';
 import Wel from './components/Wel';
 import Message from './components/Message';
-
+import Counter from './components/Counter';
 
 // function App() {
 //   return (
@@ -24,16 +24,16 @@ class App extends Component {
         <Greet />
         <Welcome />
         <Hello />
-        <Gr  name = 'Ashot' category =   'bozi txa'>
+        <Gr name='Ashot' category='bozi txa'>
           <button> action </button>
         </Gr>
-        <Gr  name = 'Aram'  category =  'chato' />
-        
+        <Gr name='Aram' category='chato' />
         {/* <Wel  name = 'Ashot' category =   'bozi txa'>
           <button> action </button>
         </Wel> */}
-        <Wel  name = 'Smbo'  category =  'xaxpa' />
+        <Wel name='Smbo' category='xaxpa' />
         <Message />
+        <Counter />
 
       </div>
     );
